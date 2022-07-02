@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+/* From uiverse.io by @Tiagoadag */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+Body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Antic Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3E432E;
+    color: #fff;
+}
+h1{
+    margin-top: 50px;
+    letter-spacing: 1.5px;
+}
+.container{
+    margin: 50px;
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin: 20px;
+    cursor: pointer;
+   }
+   
+   .card2 {
+    padding:10px 5px;
+    width: 190px;
+    height: 254px;
+    background-color: #616F39;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+   img{
+    width: 100%;
+    height:70px;
+    border-radius:20px ;
+   }
+   p{
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Antic Slab', serif;
+   }
+button{
+    padding: 10px 20px;
+    font-size: 13px;
+    width: 130px;
+    cursor: pointer;
+    font-family: 'Antic Slab', serif;
+    letter-spacing: 1.5px;
+    transition: .3s;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    color: #fff;
+    background-color: black;
+}
+a{
+    font-size: 13px;
+    font-family: 'Antic Slab', serif;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #616F39;
+    font-weight: bold;
+}
+
+.github a{
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
