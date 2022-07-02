@@ -1,3 +1,3 @@
 # yardimciSiteler
 
-[link](https://fdnakn.github.io/yardimciSiteler/){:target="_blank"}
+https://fdnakn.github.io/yardimciSiteler/
